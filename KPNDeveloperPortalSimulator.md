@@ -16,7 +16,7 @@ the implemenation of your SHA256 token generation you can use the
 **AS-Key : “3b35d8e6-a146-44b1-8430-46e8bfa250d4”** and should be able to
 generate the received token. 
 
-Post was initialy caught by the free HTTPS POST catcher www.hookbin.com
+Post was initialy caught by the free HTTPS POST catcher www.hookbin.com.
 Example created by Postman (Chrome App). 
 
 ```
