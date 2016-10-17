@@ -2,7 +2,7 @@ IoT Academy - ThingPark Simulator
 Created by Michiel Jol 
 
 Below you will find a curl command to post a standard example,
-from KPN /Actility ThingPark to your own server (J-SON format).
+from KPN /Actility ThingPark to your own server (J-SON format) **of an OTAA message**. For ABP please adjust the below for the examples as outline in https://github.com/iotacademy/LoRaPayloadSimulator/blob/master/1_KPN_LoRa_Example.md.
 
 The post is directed to **https://example.yourserver.com/postlistener**. 
 Please adjust the destination to your own specifics
@@ -22,7 +22,7 @@ Post was initialy caught by the free HTTPS POST catcher www.hookbin.com
 Example created by Postman (Chrome App). 
 
 ```
-curl -X POST -H "Accept: */*" -H "Content-Type: application/json" -H "Cache-Control: no-cache" -H "Postman-Token: 26033d78-b80c-3c08-0540-3689cfb14c67" -d '{ "DevEUI_uplink": { 
+curl -X POST -H "Accept: */*" -H "Content-Type: application/json" -d '{ "DevEUI_uplink": { 
 	"Time": "2016-07-05T08:58:26.654+02:00", 
 	"DevEUI": "0059AC000010020D", 
 	"FPort": "2", 
