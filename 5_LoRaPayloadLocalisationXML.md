@@ -1,4 +1,4 @@
-Below a XML message is shown for a device that is configured to include location information. 
+Below a XML message is shown for a device that is configured to include location information, originating from Thingpark. 
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
