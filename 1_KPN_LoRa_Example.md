@@ -29,28 +29,64 @@ Token:27515a5c9be818a4512a233d5df0624d470d5408939fc4cba0a650961b4cc247
 **Body**
 ```json
 {
-    "LrrSNR": "9.000000",
-    "Lrrid": "FF010345",
-    "SpFact": 7,
-    "SubBand": "G1",
-    "CustomerData": "{\"alr\":{\"pro\":\"SMTC/LoRaMote\",\"ver\":\"1\"}}",
-    "FPort": 1,
-    "Channel": "LC3",
-    "FCntUp": 0,
-    "Time": 1473419836813,
-    "DevEUI": "0059AC0000181EB6",
-    "payload_hex": "effe",
-    "CustomerID": 100006356,
-    "LrrRSSI": "-100.000000",
-    "ADRbit": 1,
-    "ModelCfg": 0,
-    "mic_hex": "e87053fe",
-    "LrrLON": "4.329981",
-    "LrrLAT": "52.056404",
-    "FCntDn": 1,
-    "Lrcid": "0059AC01",
-    "DevLrrCnt": 2
+    "DevEUI_uplink": {
+        "Time": "2016-12-21T22:15:22.135+01:00",
+        "DevEUI": "0059AC0000181398",
+        "FPort": "1",
+        "FCntUp": "15",
+        "ADRbit": "1",
+        "MType": "4",
+        "FCntDn": "20",
+        "payload_hex": "12",
+        "mic_hex": "b4998693",
+        "Lrcid": "0059AC01",
+        "LrrRSSI": "-104.000000",
+        "LrrSNR": "-14.000000",
+        "SpFact": "12",
+        "SubBand": "G1",
+        "Channel": "LC2",
+        "DevLrrCnt": "3",
+        "Lrrid": "FF0103E7",
+        "Late": "0",
+        "LrrLAT": "52.173420",
+        "LrrLON": "5.376729",
+        "Lrrs": {
+            "Lrr": [
+                {
+                    "Lrrid": "FF0103E7",
+                    "Chain": "0",
+                    "LrrRSSI": "-104.000000",
+                    "LrrSNR": "-14.000000",
+                    "LrrESP": "-118.169540"
+                },
+                {
+                    "Lrrid": "FF01030F",
+                    "Chain": "0",
+                    "LrrRSSI": "-112.000000",
+                    "LrrSNR": "-5.000000",
+                    "LrrESP": "-118.193314"
+                },
+                {
+                    "Lrrid": "080E02B1",
+                    "Chain": "0",
+                    "LrrRSSI": "-115.000000",
+                    "LrrSNR": "-13.250000",
+                    "LrrESP": "-128.450775"
+                }
+            ]
+        },
+        "CustomerID": "100006356",
+        "CustomerData": {
+            "alr": {
+                "pro": "SMTC/LoRaMote",
+                "ver": "1"
+            }
+        },
+        "ModelCfg": "0",
+        "DevAddr": "14204399"
+    }
 }
+
 ```
 
 ### KPN ThingPark Example
